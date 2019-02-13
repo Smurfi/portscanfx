@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane id="AnchorPane" prefHeight="768.0" prefWidth="1024.0" styleClass="mainFxmlClass" stylesheets="@../css/portscanfxmain.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="portscanfx.controller.PortScanFxMainController">
+<children>
+      <AnchorPane prefHeight="30.0" prefWidth="200.0" style="-fx-background-color: #2e569f;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" /><BorderPane layoutX="9.0" layoutY="12.0" prefHeight="281.0" prefWidth="369.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="30.0">
+<top><AnchorPane prefHeight="26.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+<children><MenuBar prefHeight="25.0" prefWidth="800.0" style="-fx-background-color: #2e569f;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" BorderPane.alignment="CENTER">
+  <menus>
+    <Menu mnemonicParsing="false" text="File">
+      <items>
+        <MenuItem mnemonicParsing="false" onAction="#exitButtonAction" text="Quit" />
+      </items>
+    </Menu>
+    <Menu mnemonicParsing="false" text="Help">
+      <items>
+        <MenuItem mnemonicParsing="false" onAction="#aboutButtonAction" text="About PortScanFX" />
+      </items>
+    </Menu>
+  </menus>
+</MenuBar>
+</children></AnchorPane>
+</top>
+<center><Pane prefHeight="125.0" prefWidth="1024.0" BorderPane.alignment="TOP_LEFT">
+<children><Label layoutX="14.0" layoutY="14.0" prefHeight="17.0" prefWidth="258.0" text="Enter the Host name to scan (example: xxx.com)" /><TextField fx:id="HostAddress" layoutX="14.0" layoutY="31.0" onKeyReleased="#handleHostAddressKeyEvent" prefHeight="25.0" prefWidth="1000.0" /><Label layoutX="14.0" layoutY="69.0" text="Port range" /><TextField fx:id="PortScanFrom" alignment="CENTER_RIGHT" layoutX="96.0" layoutY="65.0" prefHeight="25.0" prefWidth="70.0" text="0" /><Label layoutX="172.0" layoutY="69.0" text="-" /><TextField fx:id="PortScanTo" layoutX="186.0" layoutY="65.0" prefHeight="25.0" prefWidth="70.0" text="65536" /><Button fx:id="StartScanButton" disable="true" layoutX="263.0" layoutY="65.0" mnemonicParsing="false" onAction="#timerButtonAction" text="Start scanning" /><Button fx:id="ExportButton" disable="true" layoutX="363.0" layoutY="65.0" mnemonicParsing="false" onAction="#cvsExportButtonAction" text="CVS Export" /><ProgressBar fx:id="ProgressBar" layoutX="448.0" layoutY="69.0" prefHeight="18.0" prefWidth="561.0" progress="0.0" visible="false" />
+</children></Pane>
+</center>
+<bottom><TableView fx:id="table" prefHeight="608.0" prefWidth="1024.0" BorderPane.alignment="TOP_LEFT">
+  <columns>
+    <TableColumn fx:id="HostnameTableColumn" editable="false" minWidth="226.0" prefWidth="300.0" text="Hostname" />
+    <TableColumn fx:id="PortTableColumn" minWidth="200.0" prefWidth="150.0" text="Reachable Port" /><TableColumn fx:id="MemoTableColumn" maxWidth="525.0" prefWidth="525.0" text="Description" />
+  </columns>
+</TableView>
+</bottom></BorderPane>
+</children>
+</AnchorPane>

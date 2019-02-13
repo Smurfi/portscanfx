@@ -1,0 +1,374 @@
+<portlist> 
+    <port number="0">
+        <tcp>No</tcp>
+        <udp>Yes</udp>
+        <Beschreibung>Reserved</Beschreibung>
+        <Status>Unofficial</Status>
+    </port>
+    <port number="1">
+        <tcp>Yes</tcp>
+        <udp>Yes</udp>
+        <Beschreibung>TCP Port Service Multiplexer (TCPMUX)</Beschreibung>
+        <Status>Official</Status>
+    </port>
+    <port number="20">
+        <tcp>Yes</tcp>
+        <udp>No</udp>
+        <Beschreibung>FTP data transfer</Beschreibung>
+        <Status>Official</Status>
+    </port>
+    <port number="21">
+        <tcp>Yes</tcp>
+        <udp>No</udp>
+        <Beschreibung>FTP control (command)</Beschreibung>
+        <Status>Official</Status>
+    </port>
+    <port number="22">
+        <tcp>Yes</tcp>
+        <udp>Yes</udp>
+        <Beschreibung>Secure Shell (SSH) - used for secure logins, file transfers (scp, sftp) and port forwarding</Beschreibung>
+        <Status>Official</Status>
+    </port>
+    <port number="23">
+        <tcp>Yes</tcp>
+        <udp>No</udp>
+        <Beschreibung>Telnet protocol - unencrypted text communications</Beschreibung>
+        <Status>Official</Status>
+    </port>
+    <port number="80">
+        <tcp>Yes</tcp>
+        <udp>Yes</udp>
+        <Beschreibung>Hypertext Transfer Protocol (HTTP)</Beschreibung>
+        <Status>Official</Status>
+    </port>
+    <port number="111">
+        <tcp>Yes</tcp>
+        <udp>Yes</udp>
+        <Beschreibung>ONC RPC (Sun RPC)</Beschreibung>
+        <Status>Official</Status>
+    </port>
+    <port number="135">
+        <tcp>Yes</tcp>
+        <udp>Yes</udp>
+        <Beschreibung>Microsoft EPMAP (End Point Mapper), also known as DCE/RPC Locator service,[17] used to remotely manage services including DHCP server, DNS server and WINS. Also used by DCOM</Beschreibung>
+        <Status>Unofficial</Status>
+    </port>
+    <port number="139">
+        <tcp>Yes</tcp>
+        <udp>Yes</udp>
+        <Beschreibung>NetBIOS Session Service</Beschreibung>
+        <Status>Official</Status>
+    </port>
+    <port number="389">
+        <tcp>Yes</tcp>
+        <udp>Yes</udp>
+        <Beschreibung>Lightweight Directory Access Protocol (LDAP)</Beschreibung>
+        <Status>Official</Status>
+    </port>
+    <port number="443">
+        <tcp>No</tcp>
+        <udp>Yes</udp>
+        <Beschreibung>QUIC (from Chromium) for HTTPS</Beschreibung>
+        <Status>Unofficial</Status>
+    </port>
+    <port number="445">
+        <tcp>Yes</tcp>
+        <udp>No</udp>
+        <Beschreibung>Microsoft-DS SMB file sharing</Beschreibung>
+        <Status>Official</Status>
+    </port>
+    <port number="513">
+        <tcp>No</tcp>
+        <udp>Yes</udp>
+        <Beschreibung>Who</Beschreibung>
+        <Status>Official</Status>
+    </port>
+    <port number="514">
+        <tcp>Yes</tcp>
+        <udp>Yes</udp>
+        <Beschreibung>Shell - used to execute non-interactive commands on a remote system (Remote Shell, rsh, remsh)</Beschreibung>
+        <Status>Official</Status>
+    </port>
+    <port number="738">
+        <tcp>Yes</tcp>
+        <udp>Yes</udp>
+        <Beschreibung>Unassigned</Beschreibung>
+        <Status>Inoffiziell</Status>
+    </port>
+    <port number="829">
+        <tcp>Yes</tcp>
+        <udp>No</udp>
+        <Beschreibung>CMP (Certificate Management Protocol)</Beschreibung>
+        <Status>Inoffiziell</Status>
+    </port>
+    <port number="909">
+        <tcp>Yes</tcp>
+        <udp>Yes</udp>
+        <Beschreibung>Unassigned</Beschreibung>
+        <Status>-</Status>
+    </port>
+    <port number="926">
+        <tcp>Yes</tcp>
+        <udp>Yes</udp>
+        <Beschreibung>Unassigned</Beschreibung>
+        <Status>-</Status>
+    </port>
+    <port number="912">
+        <tcp>Yes</tcp>
+        <udp>No</udp>
+        <Beschreibung>Port assigned to the APEX (Application Exchange Core) protocol. It is an XML-based protocol designed for sending instant messages</Beschreibung>
+        <Status>-</Status>
+    </port>
+    <port number="929">
+        <tcp>Yes</tcp>
+        <udp>Yes</udp>
+        <Beschreibung>RPC-based services. Used by NetInfo, for example</Beschreibung>
+        <Status>-</Status>
+    </port>
+    <port number="1352">
+        <tcp>Yes</tcp>
+        <udp>No</udp>
+        <Beschreibung>IBM Lotus Notes/Domino (RPC) protocol</Beschreibung>
+        <Status>Official</Status>
+    </port>
+    <port number="2049">
+        <tcp>Yes</tcp>
+        <udp>No</udp>
+        <Beschreibung>Network File System (NFS) - remote filesystem access</Beschreibung>
+        <Status>-</Status>
+    </port>
+    <port number="2050">
+        <tcp>Yes</tcp>
+        <udp>No</udp>
+        <Beschreibung>Domino Server Controller</Beschreibung>
+        <Status>-</Status>
+    </port>
+    <port number="3052">
+        <tcp>Yes</tcp>
+        <udp>Yes</udp>
+        <Beschreibung>APC PowerChute Network</Beschreibung>
+        <Status>Official</Status>
+    </port>
+    <port number="3389">
+        <tcp>Yes</tcp>
+        <udp>Yes</udp>
+        <Beschreibung>Microsoft Terminal Server (RDP) officially registered as Windows Based Terminal (WBT)</Beschreibung>
+        <Status>Official</Status>
+    </port>
+    <port number="3700">
+        <tcp>Yes</tcp>
+        <udp>Yes</udp>
+        <Beschreibung>TCP is also registered with IANA for: LRS NetPage</Beschreibung>
+        <Status>-</Status>
+    </port>
+    <port number="3920">
+        <tcp>-</tcp>
+        <udp>-</udp>
+        <Beschreibung>Some application server use this port</Beschreibung>
+        <Status>-</Status>
+    </port>
+    <port number="4118">
+        <tcp>-</tcp>
+        <udp>-</udp>
+        <Beschreibung>WatchGuard System Manager, Netadmin Systems NETscript service</Beschreibung>
+        <Status>-</Status>
+    </port>
+    <port number="4848">
+        <tcp>Yes</tcp>
+        <udp>Yes</udp>
+        <Beschreibung>App Server - Admin HTTP</Beschreibung>
+        <Status>-</Status>
+    </port>
+    <port number="5555">
+        <tcp>Yes</tcp>
+        <udp>Yes</udp>
+        <Beschreibung>Oracle WebCenter Content: Inbound Refinery—Intradoc Socket port. (formerly known as Oracle Universal Content Management)</Beschreibung>
+        <Status>Unofficial</Status>
+    </port>
+    <port number="5902">
+        <tcp>Yes</tcp>
+        <udp>Yes</udp>
+        <Beschreibung>Open VNC Port To Allow Incoming VNC Connections</Beschreibung>
+        <Status>Unofficial</Status>
+    </port>
+    <port number="5666">
+        <tcp>Yes</tcp>
+        <udp>No</udp>
+        <Beschreibung>NRPE (Nagios)</Beschreibung>
+        <Status>Unofficial</Status>
+    </port>
+    <port number="5985">
+        <tcp>Yes</tcp>
+        <udp>No</udp>
+        <Beschreibung>New default ports for WS-Management and PowerShell remoting</Beschreibung>
+        <Status>Unofficial</Status>
+    </port>
+    <port number="6000">
+        <tcp>Yes</tcp>
+        <udp>No</udp>
+        <Beschreibung>X11 - used between an X client and server over the network</Beschreibung>
+        <Status>Official</Status>
+    </port>
+    <port number="8000">
+        <tcp>Yes</tcp>
+        <udp>Yes</udp>
+        <Beschreibung>iRDMI (Intel Remote Desktop Management Interface)</Beschreibung>
+        <Status>Official</Status>
+    </port>
+    <port number="8009">
+        <tcp>Yes</tcp>
+        <udp>No</udp>
+        <Beschreibung>ajp13 – Apache JServ Protocol AJP Connector</Beschreibung>
+        <Status>Inoffiziell</Status>
+    </port>
+    <port number="8080">
+        <tcp>Yes</tcp>
+        <udp>Yes</udp>
+        <Beschreibung>HTTP alternate (http_alt), Apache Tomcat, M2MLogger WebFRONT Cloud connector, Syncthing web GUI</Beschreibung>
+        <Status>Official</Status>
+    </port>
+    <port number="8081">
+        <tcp>Yes</tcp>
+        <udp>Yes</udp>
+        <Beschreibung>HTTP alternate (http_alt), Apache Tomcat, M2MLogger WebFRONT Cloud connector, Syncthing web GUI</Beschreibung>
+        <Status>Official</Status>
+    </port>
+    <port number="8400">
+        <tcp>Yes</tcp>
+        <udp>Yes</udp>
+        <Beschreibung>cvp, Commvault Unified Data Management</Beschreibung>
+        <Status>Official</Status>
+    </port>
+    <port number="8402">
+        <tcp>Yes</tcp>
+        <udp>Yes</udp>
+        <Beschreibung>abarsd, EMC2 (Legato) Networker or Sun Solcitice Backup</Beschreibung>
+        <Status>Official</Status>
+    </port>
+    <port number="9999">
+        <tcp>Yes</tcp>
+        <udp>No</udp>
+        <Beschreibung>RS-485 to Ethernet Converter TELNET control</Beschreibung>
+        <Status>Unofficial</Status>
+    </port>
+    <port number="31495">
+        <tcp>-</tcp>
+        <udp>-</udp>
+        <Beschreibung>Unassigned</Beschreibung>
+        <Status>-</Status>
+    </port>
+    <port number="32768">
+        <tcp>Yes</tcp>
+        <udp>-</udp>
+        <Beschreibung>First ports typically used for outgoing connections by some Linux distros like Red Hat</Beschreibung>
+        <Status>-</Status>
+    </port>
+    <port number="32770">
+        <tcp>Yes</tcp>
+        <udp>-</udp>
+        <Beschreibung>First ports typically used for outgoing connections by some Linux distros like Red Hat</Beschreibung>
+        <Status>-</Status>
+    </port>
+    <port number="32780">
+        <tcp>Yes</tcp>
+        <udp>-</udp>
+        <Beschreibung>Sometimes an RPC port on</Beschreibung>
+        <Status>-</Status>
+    </port>
+    <port number="32788">
+        <tcp>Yes</tcp>
+        <udp>Yes</udp>
+        <Beschreibung>Unassigned</Beschreibung>
+        <Status>-</Status>
+    </port>
+    <port number="32789">
+        <tcp>Yes</tcp>
+        <udp>-</udp>
+        <Beschreibung>Unassigned</Beschreibung>
+        <Status>-</Status>
+    </port>
+    <port number="47001">
+        <tcp>Yes</tcp>
+        <udp>No</udp>
+        <Beschreibung>WinRM - Windows Remote Management Service</Beschreibung>
+        <Status>-</Status>
+    </port>
+    <port number="49152">
+        <tcp>No</tcp>
+        <udp>Yes</udp>
+        <Beschreibung>This port is commonly used by applications that utilize a dynamic/random/configurable port.</Beschreibung>
+        <Status>-</Status>
+    </port>
+    <port number="49153">
+        <tcp>No</tcp>
+        <udp>Yes</udp>
+        <Beschreibung>Dynamic or private range, Lotus Domino Console</Beschreibung>
+        <Status>-</Status>
+    </port>
+    <port number="49154">
+        <tcp>-</tcp>
+        <udp>-</udp>
+        <Beschreibung>Dynamic or private range [Unassigned]</Beschreibung>
+        <Status>-</Status>
+    </port>
+    <port number="49249">
+        <tcp>-</tcp>
+        <udp>-</udp>
+        <Beschreibung>Dynamic or private range [Unassigned]</Beschreibung>
+        <Status>-</Status>
+    </port>
+    <port number="49265">
+        <tcp>-</tcp>
+        <udp>-</udp>
+        <Beschreibung>Dynamic or private range [Unassigned]</Beschreibung>
+        <Status>-</Status>
+    </port>
+    <port number="49918">
+        <tcp>-</tcp>
+        <udp>-</udp>
+        <Beschreibung>Dynamic or private range [Unassigned]</Beschreibung>
+        <Status>-</Status>
+    </port>
+    <port number="49922">
+        <tcp>-</tcp>
+        <udp>-</udp>
+        <Beschreibung>Dynamic or private range [Unassigned]</Beschreibung>
+        <Status>-</Status>
+    </port>
+    <port number="54741">
+        <tcp>-</tcp>
+        <udp>-</udp>
+        <Beschreibung>Dynamic or private range [Unassigned]</Beschreibung>
+        <Status>-</Status>
+    </port>
+    <port number="60000">
+        <tcp>Yes</tcp>
+        <udp>No</udp>
+        <Beschreibung>Domino remote debuger</Beschreibung>
+        <Status>-</Status>
+    </port>
+    <port number="62764">
+        <tcp>Yes</tcp>
+        <udp>No</udp>
+        <Beschreibung>Dynamic or private range [Unassigned]</Beschreibung>
+        <Status>-</Status>
+    </port>
+    <port number="63148">
+        <tcp>-</tcp>
+        <udp>-</udp>
+        <Beschreibung>Dynamic or private range, Lotus Domino can use this port</Beschreibung>
+        <Status>-</Status>
+    </port>
+    <port number="65124">
+        <tcp>Yes</tcp>
+        <udp>No</udp>
+        <Beschreibung>Dynamic or private range [Unassigned]</Beschreibung>
+        <Status>-</Status>
+    </port>
+    <port number="65126">
+        <tcp>Yes</tcp>
+        <udp>No</udp>
+        <Beschreibung>Dynamic or private range [Unassigned]</Beschreibung>
+        <Status>-</Status>
+    </port>
+</portlist>
